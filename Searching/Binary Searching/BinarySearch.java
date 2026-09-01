@@ -6,7 +6,7 @@ int high = arr.length - 1;
 
 while (low <= high) {
 
-    int mid = (low+(high-low))/2;
+    int mid = low+(high-low)/2;
 
     if (arr[mid] == key) {
         System.out.println("Found at index: " + mid);
